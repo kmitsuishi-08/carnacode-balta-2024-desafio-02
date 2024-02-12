@@ -41,8 +41,12 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-7kboEul0a7+XerXDW3ZzkMRl5jVMNKTe0LBIFzqlW1o=",
+      "hash": "sha256-kOYWx6tPd8YolbER5jwxnf1Krc6Kf3R2RqPhxS\/bmbY=",
       "url": "Imc.styles.css"
+    },
+    {
+      "hash": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7\/icnnYcU=",
+      "url": "_framework\/Blazored.LocalStorage.wasm"
     },
     {
       "hash": "sha256-a3TAIY\/5lCJNfNr3HdaMXQ+pT7yTFPbDmuOnfh2Cdps=",
@@ -845,21 +849,17 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-9+NpHMzDMi\/9+jC+xcUOtkvDgg78kXxy+ElgQwAWBfs=",
+      "hash": "sha256-pCateWH2NXE8vty2IYAtLMLE0TaJS3PryJoeP+clgjY=",
       "url": "_framework\/Imc.wasm"
     },
     {
-      "hash": "sha256-LK+8\/ifuqGNzbQB6\/XjKx57yziy9niZTOeRdrTZZJYw=",
+      "hash": "sha256-Iiu6yWrjk4OgCnkGsFctBDkCjC46xWvjmnqrkWsKoR4=",
       "url": "_framework\/Imc.pdb"
     },
     {
-      "hash": "sha256-KHG\/xNx9Aqkrd\/kHnCOUqZJUBt0EIaRE7mNSPCJ78zs=",
+      "hash": "sha256-KumssQpC7oazbL8yvRisYvklh52NhLh\/XB7dmQT9QsA=",
       "url": "_framework\/blazor.boot.json"
-    },
-    {
-      "hash": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7\/icnnYcU=",
-      "url": "_framework\/Blazored.LocalStorage.wasm"
     }
   ],
-  "version": "Pxp0Xoy0"
+  "version": "IWpvA\/I0"
 };

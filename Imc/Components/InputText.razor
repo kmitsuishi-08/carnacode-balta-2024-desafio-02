@@ -1,0 +1,9 @@
+<div>
+    <input class="input" type="text" placeholder="@PlaceHolder">
+</div>
+
+@code {
+    [EditorRequired]
+    [Parameter]
+    public string PlaceHolder {get; set;} = string.Empty;
+}

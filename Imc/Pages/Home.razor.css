@@ -1,0 +1,14 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    align-items: center;
+    max-width: 343px; /* Define uma largura máxima para a "caixa" */
+    width: 100%; /* Faz com que a "caixa" tenha 100% da largura disponível */
+}
