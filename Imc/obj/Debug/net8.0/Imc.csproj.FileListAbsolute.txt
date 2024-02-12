@@ -1043,3 +1043,6 @@ E:\Repository\carnacode-balta-2024-desafio-02\Imc\obj\Debug\net8.0\scopedcss\Com
 E:\Repository\carnacode-balta-2024-desafio-02\Imc\obj\Debug\net8.0\scopedcss\Components\InputText.razor.rz.scp.css
 E:\Repository\carnacode-balta-2024-desafio-02\Imc\obj\Debug\net8.0\scopedcss\Components\Checkbox.razor.rz.scp.css
 E:\Repository\carnacode-balta-2024-desafio-02\Imc\obj\Debug\net8.0\scopedcss\Components\ButtonSubmitCustom.razor.rz.scp.css
+E:\Repository\carnacode-balta-2024-desafio-02\Imc\obj\Debug\net8.0\scopedcss\Pages\History.razor.rz.scp.css
+E:\Repository\carnacode-balta-2024-desafio-02\Imc\obj\Debug\net8.0\scopedcss\Components\CustomItemList.razor.rz.scp.css
+E:\Repository\carnacode-balta-2024-desafio-02\Imc\obj\Debug\net8.0\scopedcss\Components\CustomImage.razor.rz.scp.css

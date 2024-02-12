@@ -1,0 +1,25 @@
+﻿@page "/history"
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
+@using Imc.Components
+
+<form>
+    <div class="container">
+        <CustomImage/>
+        <Imc.Components.Title Text="Histórico"/>
+        <Imc.Components.InputText PlaceHolder="Pesquisar..." Type="search"/>
+        <div>
+            <ul>
+                <CustomItemList Title="Peso Ideal ✅" Time="8m atrás" Description="Parabéns, você está no seu peso ideal, continue mantendo este estilo!"/>
+                <CustomItemList Title="Sobrepeso ⛔️" Time="12/10/2023" Description="Estamos quase lá! Faça alguns ajustes para ficar no peso ideal!"/>
+            </ul>
+        </div>
+    </div>
+</form>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await localStorage.SetItemAsync("name", "John Smith");
+        var name = await localStorage.GetItemAsync<string>("name");
+    }
+}

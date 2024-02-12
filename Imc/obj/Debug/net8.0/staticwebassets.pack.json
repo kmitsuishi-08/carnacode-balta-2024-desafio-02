@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\icon-512.png"
     },
     {
+      "Id": "E:\\Repository\\carnacode-balta-2024-desafio-02\\Imc\\wwwroot\\img\\icon-no-bg.png",
+      "PackagePath": "staticwebassets\\img\\icon-no-bg.png"
+    },
+    {
       "Id": "E:\\Repository\\carnacode-balta-2024-desafio-02\\Imc\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

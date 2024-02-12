@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-JOZWd9XYwDyrwjSB0PVTcc602GisYED21qQUCSMlGtI=",
+      "hash": "sha256-fzU\/L2GrnCxqr8kS3pJYVINJbhr2RaDAmUQg1oZssSw=",
       "url": "css\/app.css"
     },
     {
@@ -25,6 +25,10 @@
       "url": "icon-512.png"
     },
     {
+      "hash": "sha256-5hh3frNWVFQ5SbqZrM493\/EbiBJLXSkOaFLtJfGlhcc=",
+      "url": "img\/icon-no-bg.png"
+    },
+    {
       "hash": "sha256-Wp8PKQ\/ucITmfB1IzvMDi2dOWdsLJxpERGHPn6PFHHI=",
       "url": "index.html"
     },
@@ -37,7 +41,11 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-MeQJ2R9Ec5LXwI+HB7BhcwSEPJ6uX9Xw\/rlubdIYTf0=",
+      "hash": "sha256-I4LggERZ\/f+YpdIbmQq\/DkpppLSwVDlVHxq6Yvx\/QAc=",
+      "url": "_framework\/blazor.webassembly.js"
+    },
+    {
+      "hash": "sha256-xBkeDdJeVWJFTr0lHni46sxzb77Pa+XtDXTEP9vbeNA=",
       "url": "Imc.styles.css"
     },
     {
@@ -845,21 +853,17 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-pCateWH2NXE8vty2IYAtLMLE0TaJS3PryJoeP+clgjY=",
+      "hash": "sha256-7VVoBbSpKq1fjOykbcHKpUV2vvItIZuFkjb9DllXHNc=",
       "url": "_framework\/Imc.wasm"
     },
     {
-      "hash": "sha256-Iiu6yWrjk4OgCnkGsFctBDkCjC46xWvjmnqrkWsKoR4=",
+      "hash": "sha256-tLj9HgmlytBf0xnppYKfZtEMq+oyZjr7T4sMXNKxOYs=",
       "url": "_framework\/Imc.pdb"
     },
     {
-      "hash": "sha256-KumssQpC7oazbL8yvRisYvklh52NhLh\/XB7dmQT9QsA=",
+      "hash": "sha256-MaPCu6ShUSW4txtgjAMXK4n9k\/vCXI0nHF3tmV+zNJE=",
       "url": "_framework\/blazor.boot.json"
-    },
-    {
-      "hash": "sha256-I4LggERZ\/f+YpdIbmQq\/DkpppLSwVDlVHxq6Yvx\/QAc=",
-      "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "5Yqgzwjo"
+  "version": "eAhJ\/TW7"
 };

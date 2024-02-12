@@ -19,3 +19,7 @@ input[b-4vwlbjd91p]::placeholder {
     font-size: 16px;
     padding-left: 10px; /* Adiciona um espaço de 10 pixels à esquerda do campo */
 }
+
+input.input.border-radius[b-4vwlbjd91p] {
+    border-radius: 100px;
+}

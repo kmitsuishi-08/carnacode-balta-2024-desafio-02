@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0Qdn2HeCUfTiiWDUbSDmezmKMsfJv9dIWDfL/VrFRAE=",
+  "Hash": "SuVLEq95GKnLgpOLFyo1MwdbjmeXM45JbvlovNiCnTc=",
   "Source": "Imc",
   "BasePath": "/",
   "Mode": "Root",
@@ -8033,6 +8033,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icon-512.png"
+    },
+    {
+      "Identity": "E:\\Repository\\carnacode-balta-2024-desafio-02\\Imc\\wwwroot\\img\\icon-no-bg.png",
+      "SourceId": "Imc",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Repository\\carnacode-balta-2024-desafio-02\\Imc\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "img/icon-no-bg.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icon-no-bg.png"
     },
     {
       "Identity": "E:\\Repository\\carnacode-balta-2024-desafio-02\\Imc\\wwwroot\\index.html",
