@@ -6,21 +6,9 @@
     <div class="container">
         <Imc.Components.Title Text="Cálculo de IMC"/>
 
-        <div class="input-align">
-            <input class="input" type="text" placeholder="Altura" @bind="Height" >
-        </div>
-        <div class="input-align">
-            <input class="input" type="text" placeholder="Peso" @bind="Weight" >
-        </div>
-        <div class="input-align">
-            <input class="input" type="text" placeholder="Sexo" @bind="Gender" >
-        </div>
-       
-        @*         
-            <Imc.Components.InputText @bind-Value="@Altura" PlaceHolder="Height"/>
-            <Imc.Components.InputText @bind-Value="@Peso" PlaceHolder="Weight"/>
-            <Imc.Components.InputText @bind-Value="@Sexo" PlaceHolder="Gender"/> 
-        *@
+        <Imc.Components.InputText @bind-Value="Height" PlaceHolder="Height"/>
+        <Imc.Components.InputText @bind-Value="Weight" PlaceHolder="Weight"/>
+        <Imc.Components.InputText @bind-Value="Gender" PlaceHolder="Gender"/>
         
         <Checkbox Name="isSeniorCitizen" Value="Eu tenho 65 anos ou mais!"/>
         <ButtonSubmitCustom Value="Calcular meu IMC" Type="submit"/>
