@@ -2,12 +2,26 @@
 @inject Blazored.LocalStorage.ILocalStorageService localStorage
 @using Imc.Components
 
-<form>
+<form onsubmit="@EnviarFormulario">
     <div class="container">
         <Imc.Components.Title Text="Cálculo de IMC"/>
-        <Imc.Components.InputText PlaceHolder="Altura"/>
-        <Imc.Components.InputText PlaceHolder="Peso"/>
-        <Imc.Components.InputText PlaceHolder="Sexo"/>
+
+        <div class="input-align">
+            <input class="input" type="text" placeholder="Altura" @bind="Altura" >
+        </div>
+        <div class="input-align">
+            <input class="input" type="text" placeholder="Peso" @bind="Peso" >
+        </div>
+        <div class="input-align">
+            <input class="input" type="text" placeholder="Sexo" @bind="Sexo" >
+        </div>
+       
+        @*         
+            <Imc.Components.InputText @bind-Value="@Altura" PlaceHolder="Altura"/>
+            <Imc.Components.InputText @bind-Value="@Peso" PlaceHolder="Peso"/>
+            <Imc.Components.InputText @bind-Value="@Sexo" PlaceHolder="Sexo"/> 
+        *@
+        
         <Checkbox Name="isSeniorCitizen" Value="Eu tenho 65 anos ou mais!"/>
         <ButtonSubmitCustom Value="Calcular meu IMC" Type="submit"/>
         <ButtonSubmitCustom Value="Entenda seu cálculo" Type="primary"/>
@@ -15,9 +29,41 @@
 </form>
 
 @code {
-    protected override async Task OnInitializedAsync()
+    public string Altura { get; set; } 
+    public string Peso { get; set; }
+    public string Sexo { get; set; }
+
+    public async Task EnviarFormulario()
     {
-        await localStorage.SetItemAsync("name", "John Smith");
-        var name = await localStorage.GetItemAsync<string>("name");
+        double.TryParse(Peso, out var peso);
+        double.TryParse(Altura, out var altura);
+        double imc = peso / (altura * altura);
+        var date = DateTime.Now;
+        
+        var normal = false;
+        if(imc <=  24.9)
+            normal = true;
+
+        var savedList = await localStorage.GetItemAsync<List<Result>>("list-imc");
+        var result = new Result(imc, normal, date);
+        
+        if(savedList == null || !savedList.Any())
+            savedList = new List<Result>();
+        
+        savedList.Add(result);
+        await localStorage.SetItemAsync("list-imc", savedList);
+    }
+
+    public class Result
+    {
+        public double IMC { get; set; }
+        public bool Normal { get; set; }
+        public DateTime Date { get; set; }
+
+        public Result(double imc, bool normal, DateTime date){
+            IMC = imc;
+            Normal = normal;
+            Date = date;
+        }
     }
 }

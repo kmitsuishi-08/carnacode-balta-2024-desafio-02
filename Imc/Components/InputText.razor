@@ -1,8 +1,10 @@
 <div style="display: flex; justify-content: center;">
-    <input class="input @((Type == "search") ? "border-radius" : "")" type="text" placeholder="@PlaceHolder">
+    <input class="input @((Type == "search") ? "border-radius" : "")" type="text" placeholder="@PlaceHolder" >
 </div>
 
 @code {
+    private string _value;
+
     [EditorRequired]
     [Parameter]
     public string PlaceHolder {get; set;} = string.Empty;
